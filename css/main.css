@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    background-color: #8CB27C;
+    height: 500px;
+    position: relative;
+}
+.linea {
+    border: 5px solid white;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    margin: 5px;
+}
+.arc1 {
+    border: 5px solid white;
+    position: absolute;
+    top: 125px;
+    bottom: 125px;
+    /* left: -5px; */
+    border-left: none;
+    width: 100px;
+}
+.arc2 {
+    border: 5px solid white;
+    position: absolute;
+    top: 125px;
+    bottom: 125px;
+    right: 0;
+    width: 100px;
+    border-right: none; 
+}
+.circle {
+    position: absolute;
+    top: 50%;
+    margin-top: -85px;
+    left: 50%;
+    margin-left: -85px; 
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+} 
+.ball1 {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 135px;
+    left: 80px;
+}
+.ball2 {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+.ball3 {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280PX;
+    bottom: 100px;
+    right: 110px;
+}
